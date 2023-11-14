@@ -64,9 +64,9 @@ export default function ChatWidget() {
         {
           name: `${chatProfile.name} Channel`,
           members:
-            chatProfile.id === "106840650439188500036"
+            chatProfile.id === "110327416125539799158"
               ? [chatProfile.id]
-              : [chatProfile.id, "106840650439188500036"],
+              : [chatProfile.id, "110327416125539799158"],
           image:
             chatProfile?.photoURL !== null
               ? chatProfile?.photoURL
